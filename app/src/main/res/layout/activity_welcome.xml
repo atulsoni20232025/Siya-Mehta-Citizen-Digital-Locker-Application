@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E6E5"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="welcome image"
+        android:src="@android:drawable/ic_menu_upload"
+        app:tint="#133775" />
+
+    <TextView
+        android:text="Welcome to Digital Locker"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#133775"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Description -->
+    <TextView
+        android:text="Store, manage and share your documents securely anytime, anywhere."
+        android:textSize="25sp"
+        android:textColor="#094335"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/startBtn"
+        android:text="Get Started"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#133775"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

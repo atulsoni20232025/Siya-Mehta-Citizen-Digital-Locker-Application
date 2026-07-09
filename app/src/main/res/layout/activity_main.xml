@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#E4E6E5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Welcome -->
+    <TextView
+        android:text="Welcome to Digital Locker"
+        android:textSize="32sp"
+        android:textColor="#133775"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:text="Upload Document"
+        android:backgroundTint="#00E5FF"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+
+    <Button
+        android:id="@+id/viewDocsBtn"
+        android:text="View Documents"
+        android:backgroundTint="#00E5FF"
+        android:textColor="#000"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:text="Logout"
+        android:backgroundTint="#FF5252"
+        android:textColor="#FFF"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

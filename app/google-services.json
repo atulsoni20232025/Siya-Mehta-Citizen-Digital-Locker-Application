@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "974841533945",
+    "firebase_url": "https://digitallocker-d7eee-default-rtdb.firebaseio.com",
+    "project_id": "digitallocker-d7eee",
+    "storage_bucket": "digitallocker-d7eee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974841533945:android:b73affaf0edad9ff74d928",
+        "android_client_info": {
+          "package_name": "com.example.digitallocker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7G0UQa3w7nsCkoWqkf1kM2lQ4Tj2GDw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
